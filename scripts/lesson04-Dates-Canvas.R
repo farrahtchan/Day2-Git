@@ -1,3 +1,7 @@
+rm(list=ls());                         # clear Environment tab
+options(show.error.locations = TRUE);  # show line numbers on error
+library(package=ggplot2);              # get the GGPlot package
+
 #source(file="scripts/reference.R");  
 weatherData = read.csv(file="data/Lansing2016NOAA.csv", 
                        stringsAsFactors = FALSE);
