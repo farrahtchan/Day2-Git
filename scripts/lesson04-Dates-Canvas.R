@@ -1,5 +1,5 @@
 rm(list=ls());                         # clear Environment tab fgfdggh dfgdflgkldfg
-options(show.error.locations = TRUE);  # show line numbers on error
+options(show.error.locations = TRUE);  # show line numbers on error sdsdfsdfsd
 library(package=ggplot2);              # get the GGPlot package
 
 #source(file="scripts/reference.R");  
